@@ -1,0 +1,48 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Slay Alert 🚨</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      background-color: #ffeafc;
+      color: #4b004b;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      text-align: center;
+    }
+    .slay-button {
+      margin-top: 30px;
+      padding: 20px 40px;
+      font-size: 24px;
+      background-color: #ff80bf;
+      border: none;
+      border-radius: 20px;
+      color: white;
+      cursor: pointer;
+      transition: transform 0.2s;
+    }
+    .slay-button:hover {
+      transform: scale(1.05);
+      background-color: #ff4da6;
+    }
+    .emoji {
+      font-size: 40px;
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="emoji">💅✨😌</div>
+  <h1>Click here if you don't want to be slayed 💖</h1>
+  <button class="slay-button" onclick="window.location.href='slayed.html'">Slay Me 😭</button>
+</body>
+</html>
